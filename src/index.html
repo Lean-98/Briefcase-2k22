@@ -5,35 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Briefcase-2k22</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Signika:wght@500&display=swap" rel="stylesheet">
     <!-- In Head Tag -->
     <!-- <link rel="stylesheet" href="../node_modules/eins-modal/dist/css/eins-modal.min.css">
     <link rel="stylesheet" href="../src/style.css"> -->
+
 </head>
 
 <body>
 
-    <header>
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#briefcase">Portafolio</a></li>
-                    <li><a href="#about-me">Sobre mi</a></li>
-                </ul>
-            </nav>
+    <header class="header">
+        <div class="logo-header">
+            <img src="./assets/img/war_ukraine_peace_protest_stop_icon_219682.png" alt="">
         </div>
+        <div class="nav-menu">
 
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="menu-icon"><img src="./assets/img/hamburguesa-menu.png" alt=""></i>
+            </label>
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#briefcase">Portafolio</a></li>
+                <li><a href="#about-me">Sobre mi</a></li>
+            </ul>
+        </div>
     </header>
 
 
     <section id="principio">
         <div class="hero" id="inicio">
             <div class="container">
-                <img src="./assets/img/fondo-desktop.jpg" alt="Fondo Espacio">
+                <img src="./assets/img/fondo-desktop.jpg" alt="">
             </div>
         </div>
         <div class="profile">
@@ -60,18 +67,21 @@
             <h2><span>Portafolio</span></h2>
             <div class="briefcase-grid">
                 <div><a data-modal-id="pw-bienesRaices"><img src="./assets/img/bienes-raices-01.png" alt="">
-                </a></div>
-                <div><a data-modal-id="pw-maqueta-bienesraices"><img src="./assets/img/maqueta-bienesraices-01.png"alt="">
-                </a></div>
+                    </a></div>
+                <div><a data-modal-id="pw-maqueta-bienesraices"><img src="./assets/img/maqueta-bienesraices-01.png"
+                            alt="">
+                    </a></div>
                 <div><a data-modal-id="pw-devWebCamp"><img src="./assets/img/devwebcamp04.png" alt=""></a></div>
                 <div><a data-modal-id="pw-festivalMusica"><img src="./assets/img/festival-musica-01.png" alt="">
-                </a></div>
+                    </a></div>
                 <div><a data-modal-id="pw-blogCoffe"><img src="./assets/img/blog-coffe-01.png" alt=""></a></div>
                 <div><a data-modal-id="pw-store"><img src="./assets/img/store-01.png" alt=""></a></div>
                 <div><a data-modal-id="pw-appSalon"><img src="./assets/img/app-salon-01.png" alt=""></a></div>
                 <div><a data-modal-id="pw-uptask"><img src="./assets/img/uptask-02.png" alt=""></a></div>
-                <div><a data-modal-id="pw-joke-chucknorris"><img src="./assets/img/chucknorris-joke-01.png" alt=""></a></div>
+                <div><a data-modal-id="pw-joke-chucknorris"><img src="./assets/img/chucknorris-joke-01.png" alt=""></a>
+                </div>
                 <div><a data-modal-id="pw-todo"><img src="./assets/img/todo-01.png" alt=""></a></div>
+                <div><a data-modal-id="pw-briefcase-cv"><img src="./assets/img/briefcase-cv03.png" alt=""></a></div>
             </div>
         </div>
     </section>
@@ -151,15 +161,9 @@
     <section class="about" id="about-me">
         <div class="about-flex container">
             <div class="about-info">
-                <p>Estudiante autodidacta mediante los cursos brindados en la plataforma Udemy. Trabajador incansable,
-                    en busca de nuevos desafíos, decidido a aprender día a día un poco más y ampliar mi formación en el
-                    campo de la programación.
-                    Actualmente soy programador web con conocimiento sólido sobre los fundamentos de la programación,
-                    enfocado siempre a aprender buenas prácticas, lenguajes y tecnologías para mejorar mis habilidades,
-                    en el diseño me gusta dedicarle el tiempo necesario al más mínimo detalle para mejorar y optimizar
-                    el entorno visual del usuario, he creado proyectos para la gestión de usuarios y administración de sitios webs como lo es UpTask que es un sitio de Administrador de Proyectos y tareas, tambien hice un sitio para un Barbeshop y un proyecto de videoconferencias.</p>
-                <p><br>Tengo un conjunto diverso de conocimientos, que van desde el diseño front-end html, css + javascript, React.js(actualmente aprendiendo el framework) y desde el lado del backend tengo conocimientos en
-                    PHP, consumo de Apis y Bases de datos SQL,MySQL,MongoDB.</p>
+                <p>Estudiante autodidacta mediante los cursos brindados en la plataforma Udemy.<br> Actualmente, soy programador web con conocimiento sólido sobre los fundamentos de la programación, enfocado siempre a aprender buenas prácticas, lenguajes y tecnologías. 
+                    <br>En el diseño me gusta dedicarle el tiempo necesario al más mínimo detalle para mejorar y optimizar el entorno visual del usuario.</p>
+                <p><br>Tengo un conjunto diverso de conocimientos, que van desde el diseño Front-end: HTML, CSS + JavaScript, React.js(actualmente aprendiendo el framework) y desde el lado del Backend tengo conocimientos en PHP, consumo de Apis y Bases de datos SQL, MySQL, MongoDB.</p>
             </div>
 
             <div class="social">
@@ -176,7 +180,8 @@
                     <span> / Ver video del proyecto Paso a paso desde cero</span></a>
             </div> -->
             <div>
-                <a href="https://github.com/Lean-98/Briefcase-2k22" target="blank"><img src="./assets/img/github-icon.png" alt="">
+                <a href="https://github.com/Lean-98/Briefcase-2k22" target="blank"><img
+                        src="./assets/img/github-icon.png" alt="">
                     <span> / Ver código de este proyecto desde el repositorio</span></a>
             </div>
         </div>
@@ -511,40 +516,71 @@
     </div>
 
 
-        <!-- Modal 10 -->
-        <div id="pw-devWebCamp" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
-            <div class="eins-modal-content">
-                <div class="eins-modal-close"></div>
-                <div class="pw-content">
-                    <div class="eins-modal-preview"><img src="./assets/img/devwebcamp02.png" alt="">
+    <!-- Modal 10 -->
+    <div id="pw-devWebCamp" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview"><img src="./assets/img/devwebcamp02.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p> DevWebCamp - Sitio de Conferencias con Pagos en PayPal, Admin y gestión de usuarios. </p>
+                    <div class="eins-modal-text-2">
+                        <span>Enlace:</span><a href="https://gentle-depths-11966.herokuapp.com" target="_blank">
+                            https://gentle-depths-11966.herokuapp.com</a>
                     </div>
-                    <div class="eins-modal-text">
-                        <p> DevWebCamp - Sitio de Conferencias con Pagos en PayPal, Admin y gestión de usuarios. </p>
-                        <div class="eins-modal-text-2">
-                            <span>Enlace:</span><a href="https://gentle-depths-11966.herokuapp.com" target="_blank">
-                                https://gentle-depths-11966.herokuapp.com</a>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Usadas: </span>
+                        <div class="eins-modal-tec">
+                            <img src="./assets/img/php.png" alt="">
+                            <img src="./assets/img/MySQL.png" alt="">
+                            <img src="./assets/img/html-5.png" alt="">
+                            <img src="./assets/img/css-3.png" alt="">
+                            <img src="./assets/img/sass.png" alt="">
+                            <img src="./assets/img/gulp.png" alt="">
+                            <img src="./assets/img/js.png" alt="">
                         </div>
-                        <div class="eins-modal-text-3">
-                            <span>Tecnologías Usadas: </span>
-                            <div class="eins-modal-tec">
-                                <img src="./assets/img/php.png" alt="">
-                                <img src="./assets/img/MySQL.png" alt="">
-                                <img src="./assets/img/html-5.png" alt="">
-                                <img src="./assets/img/css-3.png" alt="">
-                                <img src="./assets/img/sass.png" alt="">
-                                <img src="./assets/img/gulp.png" alt="">
-                                <img src="./assets/img/js.png" alt="">
-                            </div>
-                        </div>
-                        <div class="eins-icon-elements">
-                            <a href="https://github.com/Lean-98/DevWebCamp-MVC" target="blank"><img
-                                    src="./assets/img/github-icon.png" alt="">
-                                <span> / Ver código de este proyecto desde el repositorio</span></a>
-                        </div>
+                    </div>
+                    <div class="eins-icon-elements">
+                        <a href="https://github.com/Lean-98/DevWebCamp-MVC" target="blank"><img
+                                src="./assets/img/github-icon.png" alt="">
+                            <span> / Ver código de este proyecto desde el repositorio</span></a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Modal 11 -->
+    <div id="pw-briefcase-cv" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview"><img src="./assets/img/briefcase-cv02.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p> Briefcase-CV - Portafolio personal tipo curriculum vitae dinámico.</p>
+                    <div class="eins-modal-text-2">
+                        <span>Enlace:</span><a href="https://lean-98.github.io/Briefcase-CV/" target="_blank">
+                            https://lean-98.github.io/Briefcase-CV</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Usadas: </span>
+                        <div class="eins-modal-tec">
+                            <img src="./assets/img/html-5.png" alt="">
+                            <img src="./assets/img/css-3.png" alt="">
+                            <img src="./assets/img/js.png" alt="">
+                        </div>
+                    </div>
+                    <div class="eins-icon-elements">
+                        <a href="https://github.com/Lean-98/Briefcase-CV" target="blank"><img
+                                src="./assets/img/github-icon.png" alt="">
+                            <span> / Ver código de este proyecto desde el repositorio</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Modal Form section -->
@@ -569,4 +605,5 @@
 
     <!-- <script src="../node_modules/eins-modal/dist/js/eins-modal.min.js"></script> -->
 </body>
+
 </html>
